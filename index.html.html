@@ -1,0 +1,49 @@
+<!DOCTYPEhtml>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"> 
+<html lang="pt-br">
+<head>
+ <title>atividade</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script link="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script link="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<a href="#s1" style="margin-right:50%;"> minha sesao  </a>
+	<div class="container">
+  		<div class="row">
+    		<div class="col-sm-8">
+    			<h1>eletronica</h1>
+				<img src="eletronica.png">
+				<p>Também abreviado como D&B, DnB, é um estilo de música eletrônica que surgiu na metade dos anos 90 na Inglaterra. O gênero é caracterizado por batidas rápidas, próximas a 170 BPM. Incorporou elementos de culturas musicais como o dancehall, electro, funk, Hip-Hop, house, jazz, metal, pop, reggae, rock, techno e trance.</p>
+    		</div>
+    	</div>
+ 	</div>
+ 	<div style="text-align: center;">
+	<p>
+  		primeiro nome:
+  		<input type="text" id="txt1" name="text1" placeholder="nome">
+  		oque vc se consideira:
+  		<input type="text" id="txt2" name="text2" placeholder="gosto musical">
+	</p>
+	<p>
+	  <button onclick="myFunction()">aperte aqui</button>
+	</p>
+	<p id="demo"></p>
+	<script type="text/javascript">
+	function myFunction() {
+	var y = document.getElementById("txt1").value;
+	var z = document.getElementById("txt2").value;
+	var x = 'bem vindo!'+' '+ z +' '+ y;
+	document.getElementById("demo").innerHTML = x;
+	}
+	</script>
+	</div>
+	<section id="s1" style="text-align: center;">
+		<img src="arata.png" style="width: 20%">
+		<p>ola eu sou richard e eu gosto de musicas eletronicas </p>
+		
+	</section>
+</body>
+</html>
